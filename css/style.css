@@ -1,0 +1,78 @@
+/*site-init*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td 
+{ margin:0; padding:0; } 
+/*begin*/
+/*body and container*/
+#container{
+	height: auto;
+}
+#container a{
+	text-decoration: none;
+}
+/*site-header part*/
+.site-header{
+	background-color: #49D292;
+}
+.site-header a{
+	color: white;
+}
+.site-header .header-container{
+	display: block;
+	height: 30px;
+	padding: 20px;
+}
+.header-container h1{
+	float: left;
+	font-size: 25px;
+}
+.header-container nav{
+	list-style: none;
+	float: right;
+}
+.header-container nav li{
+	float: left;
+	padding-top: 8px;
+	margin-left: 20px;
+}
+.site-header .header-banner{
+	display: block;
+	height: 150px;
+	padding: 20px;
+}
+.header-banner .banner-content{
+	margin: 20px 20px;
+}
+.header-banner .banner-content h1{
+	font-size: 35px;
+}
+/*site-posts part*/
+.site-container{
+	display: block;
+	margin-top: 20px;
+	padding: 40px 40px 0 40px;
+	background-color: #fff;
+}
+.post{
+	box-shadow: 0 0 10px rgba(202,203,203,0.5);
+	-webkit-box-shadow: 0 0 10px rgba(202,203,203,0.5);
+	-moz-box-shadow: 0 0 10px rgba(202,203,203,0.5);
+	-o-box-shadow: 0 0 10px rgba(202,203,203,0.5);
+}
+.site-container .container-post{
+	display: block;
+	text-align: center;
+	margin: 0px 200px 100px 200px;
+	padding: 30px 20px;
+	text-align: left;
+}
+/*site-footer part*/
+.site-footer{
+	display: block;
+	background-color: #49D292;
+	padding: 20px;
+	margin: 0 200px 0 200px;
+	border-radius: 10px 10px 0 0; 
+	box-shadow: 2px -2px 100px rgba(202,203,203,0.8);
+	text-align: center;
+}
+/*end*/
