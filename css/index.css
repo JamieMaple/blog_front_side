@@ -56,32 +56,3 @@
 	/*post_footer part*/
 .posts .post-footer{font-size: 15px;font-weight: 300}
 /* posts end */
-.clearfix::after{
-	content: ".";
-	visibility: hidden; 
-	display: block;
-	clear: left;
-	height: 0;
-}
-/* pagination begin */
-.site-container .pagination{
-	text-align: center;
-	margin-top: 120px;
-	border-top: 1px solid #eee;
-}
-.pagination a{
-	padding: 10px;
-	margin: 0 10px;
-	border: 1px solid white;
-	border-radius: 2px;
-}
-.pagination .current{
-	color: white;
-	background-color: black;
-	border: 1px solid black;
-}
-/* border-bottom animate */
-.pagination a:not(.current){transition: border-color 0.2s ease-in}
-.pagination a:not(.current):hover{border-color:black;transition: border-color 0.4s ease-in}
-/* pagination end */
-/* pagination animate */

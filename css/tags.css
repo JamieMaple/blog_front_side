@@ -1,6 +1,4 @@
 /* tags css */
-/* tags header */
-.site-container .tags-header{font-weight: bold;font-size: 25px;text-align: center}
 /* tags body */
 .tags-body .tags-body-tags{text-align: center;margin: 30px auto;width: 60%;}
 .tags-body-tags a:nth-of-type(9n-8){color: #ADACA7;font-size: 20px;}
